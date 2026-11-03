@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/Company-ELMA-22C55E?style=flat-square" alt="Company" />
   <img src="https://komarev.com/ghpvc/?username=bekzodjs&style=flat-square&color=6366F1" alt="Profile views" />
 </p>
+<p align="center">
+  <a href="https://my-portfoliyo-wine.vercel.app"><img src="https://img.shields.io/badge/Portfolio-my--portfoliyo--wine.vercel.app-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+</p>
 
 ---
 
@@ -51,7 +54,7 @@
 
 ### 📌 Featured projects
 
-#### 📦 Packaging & finished-goods accounting system — ELMA *(private, in production)*
+#### 📦 Ombor — packaging & finished-goods accounting · ELMA · [ombor.elma.uz](https://ombor.elma.uz) *(private code, in production)*
 
 Internal system that tracks packaging film and finished-goods stock for logo-printed wet wipes, per customer logo.
 It imports monthly ERP (Smartup) Excel reports, calculates average consumption, months of cover, reorder and
@@ -64,6 +67,23 @@ production needs, and tied-up money, and gives managers a decision screen and Ex
 - Unit and PostgreSQL integration tests (Vitest), CI with typecheck, build, migration-drift check and smoke test
 - Deployed with Docker behind Nginx and Traefik, migrations applied on container start
 - UI in Uzbek and Russian
+
+#### 🤖 Davomat — employee attendance bot · ELMA · [@DavomatElmaBot](https://t.me/DavomatElmaBot) · [admin panel](https://davomat.elma.uz) *(in production)*
+
+Telegram bot used every day by 40+ ELMA employees: staff register through the bot, check-in and check-out times
+are recorded automatically, and managers see attendance reports in a web admin panel.
+
+`NestJS` `TypeORM` `PostgreSQL` `Telegram Bot API` `React`
+
+#### 🚚 Elma Avtopark — vehicle fleet management · [live](https://elma-avto-park.vercel.app)
+
+Fleet management platform with a live operations dashboard, vehicle registry with inspection photos and documents,
+fuel and mileage logging, scheduled maintenance reminders, repair, accident and fine records, and driver
+management with reports and forecasts.
+
+#### 🎓 Edu CRM — learning center CRM · [live](https://edu-crm-sandy.vercel.app)
+
+CRM for a learning center with phone-number login and an admin account created by a backend seed script.
 
 #### 🚕 [taxiOrder](https://github.com/bekzodjs/taxiOrder) — taxi & truck ordering API
 
@@ -91,4 +111,5 @@ UZ / RU language switch and light / dark mode.
 
 ### 📫 Contact
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfoliyo-wine.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-bekzodjs-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bekzodjs)
